@@ -1,0 +1,11 @@
+{
+    "id": 0,
+    "shortcode": "OANY",
+    "names": {
+        "default": "english",
+        "english": "Sasaki and Miyano",
+        "japanese": "佐々木と宮野"
+    },
+    "seasons": 1,
+    "rating": "13+"
+}

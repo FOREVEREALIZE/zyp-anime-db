@@ -1,0 +1,11 @@
+{
+    "id": 2,
+    "shortcode": "WTQA",
+    "names": {
+        "default": "english",
+        "english": "Bungo Stray Dogs",
+        "japanese": "文豪ストレイドッグス"
+    },
+    "seasons": 3,
+    "rating": "13+"
+}

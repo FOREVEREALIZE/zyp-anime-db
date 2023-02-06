@@ -1,0 +1,11 @@
+{
+    "id": 1,
+    "shortcode": "NIAB",
+    "names": {
+        "default": "english",
+        "english": "Given",
+        "japanese": "ギヴン"
+    },
+    "seasons": 1,
+    "rating": "13+"
+}

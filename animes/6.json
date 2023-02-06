@@ -1,0 +1,11 @@
+{
+    "id": 6,
+    "shortcode": "THHY",
+    "names": {
+        "default": "english",
+        "english": "Noragami",
+        "japanese": "ノラガミ"
+    },
+    "seasons": 1,
+    "rating": "13+"
+}

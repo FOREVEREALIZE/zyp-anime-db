@@ -1,0 +1,11 @@
+{
+    "id": 3,
+    "shortcode": "GKIT",
+    "names": {
+        "default": "english",
+        "english": "Neon Genesis Evangelion",
+        "japanese": "新世紀エヴァンゲリオン"
+    },
+    "seasons": 1,
+    "rating": "13+"
+}
