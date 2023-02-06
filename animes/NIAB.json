@@ -1,6 +1,5 @@
 {
-    "id": 1,
-    "shortcode": "NIAB",
+    "id": "NIAB",
     "names": {
         "default": "english",
         "english": "Given",

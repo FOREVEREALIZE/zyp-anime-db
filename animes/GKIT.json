@@ -1,6 +1,5 @@
 {
-    "id": 3,
-    "shortcode": "GKIT",
+    "id": "GKIT",
     "names": {
         "default": "english",
         "english": "Neon Genesis Evangelion",
