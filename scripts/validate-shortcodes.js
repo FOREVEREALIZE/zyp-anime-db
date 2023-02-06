@@ -8,6 +8,14 @@ var errors = false
 
 const shortcodes = JSON.parse(fs.readFileSync("../shortcodes.json"))
 
+if (shortcodes["EXAM"] == undefined) {
+    console.error("[ERROR] Shortcode EXAM used. EXAM is an exculsive shortcode and must not be declared in shortcodes.json")
+}
+
+if (shortcodes["UKNO"] == undefined) {
+    console.error("[ERROR] Shortcode UKNO used. UKNO is an exculsive shortcode and must not be declared in shortcodes.json")
+}
+
 for (const file in fs.readdirSync("../animes/")) {
     const data = JSON.parse(fs.readFileSync("../animes/" + file + ".json"))
 
