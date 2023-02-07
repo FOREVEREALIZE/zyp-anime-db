@@ -39,11 +39,6 @@
         "base-watch-url": "watch/230/haikyuu/%%ID%%/",
         "dub-url": "watch/230/haikyuu-dub/%%ID%%/"
     },
-    "FAPU": {
-        "base-url": "anime/16210/buddy-daddies/watch/",
-        "base-watch-url": "watch/16210/buddy-daddies/%%ID%%/",
-        "dub-url": ""
-    },
     "MAAC": {
         "base-url": "anime/755/gakuen-babysitters/watch/",
         "base-watch-url": "watch/755/gakuen-babysitters/%%ID%%/",
