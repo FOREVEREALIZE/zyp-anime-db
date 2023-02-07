@@ -1,42 +1,42 @@
 {
     "OANY": {
-        "original-id": "sasaki-to-miyano",
-        "dub-id": "sasaki-to-miyano-dub"
+        "original_id": "sasaki-to-miyano",
+        "dub_id": "sasaki-to-miyano-dub"
     },
     "NIAB": {
-        "original-id": "given",
-        "dub-id": "given-dub"
+        "original_id": "given",
+        "dub_id": "given-dub"
     },
     "WTQA": {
-        "original-id": "bungou-stray-dogs",
-        "dub-id": "bungou-stray-dogs-dub"
+        "original_id": "bungou-stray-dogs",
+        "dub_id": "bungou-stray-dogs-dub"
     },
     "GKIT": {
-        "original-id": "neon-genesis-evangelion-",
-        "dub-id": "neon-genesis-evangelion-dub"
+        "original_id": "neon-genesis-evangelion-",
+        "dub_id": "neon-genesis-evangelion-dub"
     },
     "VZZX": {
-        "original-id": "-danganronpa-the-animation",
-        "dub-id": "danganronpa-the-animation-dub"
+        "original_id": "-danganronpa-the-animation",
+        "dub_id": "danganronpa-the-animation-dub"
     },
     "OIYC": {
-        "original-id": "horimiya",
-        "dub-id": "horimiya-dub"
+        "original_id": "horimiya",
+        "dub_id": "horimiya-dub"
     },
     "THHY": {
-        "original-id": "noragami",
-        "dub-id": "noragami-dub"
+        "original_id": "noragami",
+        "dub_id": "noragami-dub"
     },
     "JKLL": {
-        "original-id": "haikyuu",
-        "dub-id": "haikyuu-dub"
+        "original_id": "haikyuu",
+        "dub_id": "haikyuu-dub"
     },
     "FAPU": {
-        "original-id": "buddy-daddies",
-        "dub-id": "buddy-daddies-dub"
+        "original_id": "buddy-daddies",
+        "dub_id": "buddy-daddies-dub"
     },
     "MAAC": {
-        "original-id": "gakuen-babysitters",
-        "dub-id": ""
+        "original_id": "gakuen-babysitters",
+        "dub_id": ""
     }
 }
