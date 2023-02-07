@@ -1,38 +1,64 @@
-const startTime = Date.now().valueOf()
-
-console.log("[INFO ] Starting!")
-
 const fs = require("fs")
-
 var errors = false
 
+const startTime = Date.now().valueOf()
+console.log("[INFO ] Starting!")
 const shortcodes = JSON.parse(fs.readFileSync("../shortcodes.json"))
 
-if (shortcodes["EXAM"] == undefined) {
-    console.error("[ERROR] Shortcode EXAM used. EXAM is an exculsive shortcode and must not be declared in shortcodes.json")
-}
 
-if (shortcodes["UKNO"] == undefined) {
-    console.error("[ERROR] Shortcode UKNO used. UKNO is an exculsive shortcode and must not be declared in shortcodes.json")
-}
 
-for (const file in fs.readdirSync("../animes/")) {
-    const data = JSON.parse(fs.readFileSync("../animes/" + file + ".json"))
+/* =====[ LIST OF RESERVED SHORTCODES ]===== */
+const reserved_shortcodes = [
+    "AS-UNKN",
+    "AS-EXAM",
+    "AM-UNKN",
+    "AM-EXAM"
+]
 
-    if (data.shortcode == undefined) {
-        console.error("[ERROR] File " + file + ".json has no shortcode")
-        errors = true
+
+
+/* =====[ LIST OF FOLDERS TO SCAN ]===== */
+const folders = [
+    "../anime/series/",
+    "../anime/movies/"
+]
+
+
+
+/* =====[ CHECK FOR RESERVED SHORTCODES ]===== */
+for (const reserved of reserved_shortcodes) {
+    if (shortcodes[reserved]) {
+        console.error("[ERROR] Shortcode " + reserved + " used. " + reserved + " is an exculsive shortcode and must not be declared in shortcodes.json")
     }
-
-    if (shortcodes[data.shortcode] == undefined) {
-        console.error("[ERROR] Shortcode " + data.shortcode + " found in " + file + ".json does not exist in shortcodes.json")
-        errors = true
-    }
-
-    delete shortcodes[data.shortcode]
 }
 
-for (const leftover in shortcodes) {
+
+
+/* =====[ SCAN FOLDERS AND VALIDATE SHORTCODES ]===== */
+for (const folder of folders) {
+    for (const file of fs.readdirSync(folder)) {
+        const data = JSON.parse(fs.readFileSync(folder + file + "/info.json"))
+
+        if (data.shortcode == undefined) {
+            console.error("[ERROR] File " + file + ".json has no shortcode")
+            errors = true
+            continue
+        }
+
+        if (!shortcodes.includes(data.shortcode)) {
+            console.error("[ERROR] Shortcode " + data.shortcode + " found in " + file + ".json does not exist in shortcodes.json")
+            errors = true
+            continue
+        }
+
+        shortcodes.splice(shortcodes.indexOf(data.shortcode), 1)
+    }
+}
+
+
+
+/* =====[ INFORM OF EXTRA SHORTCODES ]===== */
+for (const leftover of shortcodes) {
     console.error("[ERROR] Shortcode " + leftover + " is not used in any file but defined in shortcodes.json")
     errors = true
 }

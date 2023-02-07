@@ -1,5 +1,7 @@
 {
     "id": "THHY",
+    "type": "SERIES",
+    "shortcode": "AS-THHY",
     "names": {
         "default": "english",
         "english": "Noragami",

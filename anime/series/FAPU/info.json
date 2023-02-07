@@ -1,5 +1,7 @@
 {
     "id": "FAPU",
+    "type": "SERIES",
+    "shortcode": "AS-FAPU",
     "names": {
         "default": "english",
         "english": "Buddy Daddies",

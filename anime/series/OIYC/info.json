@@ -1,5 +1,7 @@
 {
     "id": "OIYC",
+    "type": "SERIES",
+    "shortcode": "AS-OIYC",
     "names": {
         "default": "english",
         "english": "Horimiya",

@@ -1,5 +1,7 @@
 {
     "id": "JKLL",
+    "type": "SERIES",
+    "shortcode": "AS-JKLL",
     "names": {
         "default": "english",
         "english": "Haikyu!!",

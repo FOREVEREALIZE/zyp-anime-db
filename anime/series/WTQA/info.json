@@ -1,5 +1,7 @@
 {
     "id": "WTQA",
+    "type": "SERIES",
+    "shortcode": "AS-WTQA",
     "names": {
         "default": "english",
         "english": "Bungo Stray Dogs",

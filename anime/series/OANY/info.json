@@ -1,5 +1,7 @@
 {
     "id": "OANY",
+    "type": "SERIES",
+    "shortcode": "AS-OANY",
     "names": {
         "default": "english",
         "english": "Sasaki and Miyano",

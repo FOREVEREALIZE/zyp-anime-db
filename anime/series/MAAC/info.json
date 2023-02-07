@@ -1,5 +1,7 @@
 {
     "id": "MAAC",
+    "type": "SERIES",
+    "shortcode": "AS-MAAC",
     "names": {
         "default": "english",
         "english": "School Babysitters",

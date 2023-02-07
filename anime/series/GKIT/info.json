@@ -1,5 +1,7 @@
 {
     "id": "GKIT",
+    "type": "SERIES",
+    "shortcode": "AS-GKIT",
     "names": {
         "default": "english",
         "english": "Neon Genesis Evangelion",
