@@ -5,5 +5,14 @@
         "default": "english",
         "english": "Take care of yourself",
         "japanese": "世界の中心でアイを叫んだけもの"
+    },
+    "languages": {
+        "english": {
+            "downloadQuery": {
+                "extension": "ANIME",
+                "provider": "Gogoanime",
+                "id": "neon-genesis-evangelion-dub-episode-26"
+            }
+        }
     }
 }

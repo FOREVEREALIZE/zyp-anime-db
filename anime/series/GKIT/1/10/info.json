@@ -5,5 +5,14 @@
         "default": "english",
         "english": "Magmadiver",
         "japanese": "マグマダイバー"
+    },
+    "languages": {
+        "english": {
+            "downloadQuery": {
+                "extension": "ANIME",
+                "provider": "Gogoanime",
+                "id": "neon-genesis-evangelion-dub-episode-10"
+            }
+        }
     }
 }

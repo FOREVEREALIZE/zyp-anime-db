@@ -5,5 +5,14 @@
         "default": "english",
         "english": "The Beast",
         "japanese": "見知らぬ、天井"
+    },
+    "languages": {
+        "english": {
+            "downloadQuery": {
+                "extension": "ANIME",
+                "provider": "Gogoanime",
+                "id": "neon-genesis-evangelion-dub-episode-2"
+            }
+        }
     }
 }

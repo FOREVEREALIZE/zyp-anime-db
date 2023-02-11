@@ -5,5 +5,14 @@
         "default": "english",
         "english": "Those women longed for the touch of others' lips, and thus invited their kisses.",
         "japanese": "嘘と沈黙"
+    },
+    "languages": {
+        "english": {
+            "downloadQuery": {
+                "extension": "ANIME",
+                "provider": "Gogoanime",
+                "id": "neon-genesis-evangelion-dub-episode-15"
+            }
+        }
     }
 }

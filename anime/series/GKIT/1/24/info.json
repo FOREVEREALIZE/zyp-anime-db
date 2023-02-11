@@ -5,5 +5,14 @@
         "default": "english",
         "english": "The Beginning and the End, or 'Knockin' on Heaven's Door'",
         "japanese": "最後のシ者"
+    },
+    "languages": {
+        "english": {
+            "downloadQuery": {
+                "extension": "ANIME",
+                "provider": "Gogoanime",
+                "id": "neon-genesis-evangelion-dub-episode-24"
+            }
+        }
     }
 }

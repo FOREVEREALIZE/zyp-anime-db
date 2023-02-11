@@ -5,5 +5,14 @@
         "default": "english",
         "english": "Don't Be.",
         "japanese": "せめて、人間らしく"
+    },
+    "languages": {
+        "english": {
+            "downloadQuery": {
+                "extension": "ANIME",
+                "provider": "Gogoanime",
+                "id": "neon-genesis-evangelion-dub-episode-22"
+            }
+        }
     }
 }

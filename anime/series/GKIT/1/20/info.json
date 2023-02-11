@@ -5,5 +5,14 @@
         "default": "english",
         "english": "Weaving a Story 2: oral stage",
         "japanese": "心のかたち 人のかたち"
+    },
+    "languages": {
+        "english": {
+            "downloadQuery": {
+                "extension": "ANIME",
+                "provider": "Gogoanime",
+                "id": "neon-genesis-evangelion-dub-episode-20"
+            }
+        }
     }
 }

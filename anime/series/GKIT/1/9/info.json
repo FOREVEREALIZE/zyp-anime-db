@@ -5,5 +5,14 @@
         "default": "english",
         "english": "Both of You, Dance Like You Want to Win!",
         "japanese": "瞬間、心、重ねて"
+    },
+    "languages": {
+        "english": {
+            "downloadQuery": {
+                "extension": "ANIME",
+                "provider": "Gogoanime",
+                "id": "neon-genesis-evangelion-dub-episode-9"
+            }
+        }
     }
 }

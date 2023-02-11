@@ -5,5 +5,14 @@
         "default": "english",
         "english": "A Transfer",
         "japanese": "鳴らない、電話"
+    },
+    "languages": {
+        "english": {
+            "downloadQuery": {
+                "extension": "ANIME",
+                "provider": "Gogoanime",
+                "id": "neon-genesis-evangelion-dub-episode-3"
+            }
+        }
     }
 }

@@ -5,5 +5,14 @@
         "default": "english",
         "english": "Lilliputian Hitcher",
         "japanese": "使徒、侵入"
+    },
+    "languages": {
+        "english": {
+            "downloadQuery": {
+                "extension": "ANIME",
+                "provider": "Gogoanime",
+                "id": "neon-genesis-evangelion-dub-episode-13"
+            }
+        }
     }
 }

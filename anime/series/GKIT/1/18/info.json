@@ -5,5 +5,14 @@
         "default": "english",
         "english": "Ambivalence",
         "japanese": "命の選択を"
+    },
+    "languages": {
+        "english": {
+            "downloadQuery": {
+                "extension": "ANIME",
+                "provider": "Gogoanime",
+                "id": "neon-genesis-evangelion-dub-episode-18"
+            }
+        }
     }
 }

@@ -5,5 +5,14 @@
         "default": "english",
         "english": "He was aware that he was still a child.",
         "japanese": "ネルフ、誕生"
+    },
+    "languages": {
+        "english": {
+            "downloadQuery": {
+                "extension": "ANIME",
+                "provider": "Gogoanime",
+                "id": "neon-genesis-evangelion-dub-episode-21"
+            }
+        }
     }
 }

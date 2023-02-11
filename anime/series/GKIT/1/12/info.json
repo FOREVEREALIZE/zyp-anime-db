@@ -5,5 +5,14 @@
         "default": "english",
         "english": "She said, 'Don't make others suffer for your personal hatred.'",
         "japanese": "奇跡の価値は"
+    },
+    "languages": {
+        "english": {
+            "downloadQuery": {
+                "extension": "ANIME",
+                "provider": "Gogoanime",
+                "id": "neon-genesis-evangelion-dub-episode-12"
+            }
+        }
     }
 }
