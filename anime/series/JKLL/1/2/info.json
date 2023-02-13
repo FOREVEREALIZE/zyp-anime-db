@@ -1,0 +1,18 @@
+{
+    "id": 2,
+    "shortcode": "AS-JKLL-1-2",
+    "names": {
+        "default": "english",
+        "english": "Karasuno High School Volleyball Team",
+        "japanese": "烏野高校排球部"
+    },
+    "languages": {
+        "english": {
+            "downloadQuery": {
+                "extension": "ANIME",
+                "provider": "Gogoanime",
+                "id": "haikyuu-dub-episode-2"
+            }
+        }
+    }
+}

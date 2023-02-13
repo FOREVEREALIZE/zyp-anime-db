@@ -1,0 +1,18 @@
+{
+    "id": 8,
+    "shortcode": "AS-JKLL-1-8",
+    "names": {
+        "default": "english",
+        "english": "The One They Call \"Ace\"",
+        "japanese": "“エース”と呼ばれる人"
+    },
+    "languages": {
+        "english": {
+            "downloadQuery": {
+                "extension": "ANIME",
+                "provider": "Gogoanime",
+                "id": "haikyuu-dub-episode-8"
+            }
+        }
+    }
+}

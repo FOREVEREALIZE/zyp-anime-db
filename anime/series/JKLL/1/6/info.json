@@ -1,0 +1,18 @@
+{
+    "id": 6,
+    "shortcode": "AS-JKLL-1-6",
+    "names": {
+        "default": "english",
+        "english": "An Interesting Team",
+        "japanese": "面白いチーム"
+    },
+    "languages": {
+        "english": {
+            "downloadQuery": {
+                "extension": "ANIME",
+                "provider": "Gogoanime",
+                "id": "haikyuu-dub-episode-6"
+            }
+        }
+    }
+}

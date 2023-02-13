@@ -1,0 +1,18 @@
+{
+    "id": 18,
+    "shortcode": "AS-JKLL-1-18",
+    "names": {
+        "default": "english",
+        "english": "Guarding Your Back",
+        "japanese": "背中の護り"
+    },
+    "languages": {
+        "english": {
+            "downloadQuery": {
+                "extension": "ANIME",
+                "provider": "Gogoanime",
+                "id": "haikyuu-dub-episode-18"
+            }
+        }
+    }
+}

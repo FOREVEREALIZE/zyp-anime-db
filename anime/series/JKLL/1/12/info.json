@@ -1,0 +1,18 @@
+{
+    "id": 12,
+    "shortcode": "AS-JKLL-1-12",
+    "names": {
+        "default": "english",
+        "english": "The Cat and Crow Reunion",
+        "japanese": "ネコとカラスの再会"
+    },
+    "languages": {
+        "english": {
+            "downloadQuery": {
+                "extension": "ANIME",
+                "provider": "Gogoanime",
+                "id": "haikyuu-dub-episode-12"
+            }
+        }
+    }
+}

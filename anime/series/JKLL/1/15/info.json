@@ -1,0 +1,18 @@
+{
+    "id": 15,
+    "shortcode": "AS-JKLL-1-15",
+    "names": {
+        "default": "english",
+        "english": "Revival",
+        "japanese": "復活"
+    },
+    "languages": {
+        "english": {
+            "downloadQuery": {
+                "extension": "ANIME",
+                "provider": "Gogoanime",
+                "id": "haikyuu-dub-episode-15"
+            }
+        }
+    }
+}

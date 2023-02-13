@@ -1,0 +1,18 @@
+{
+    "id": 16,
+    "shortcode": "AS-JKLL-1-16",
+    "names": {
+        "default": "english",
+        "english": "Winners and Losers",
+        "japanese": "勝者と敗者"
+    },
+    "languages": {
+        "english": {
+            "downloadQuery": {
+                "extension": "ANIME",
+                "provider": "Gogoanime",
+                "id": "haikyuu-dub-episode-16"
+            }
+        }
+    }
+}

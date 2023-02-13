@@ -1,0 +1,18 @@
+{
+    "id": 23,
+    "shortcode": "AS-JKLL-1-23",
+    "names": {
+        "default": "english",
+        "english": "The Play to Shift the Momentum",
+        "japanese": "流れを変える一本"
+    },
+    "languages": {
+        "english": {
+            "downloadQuery": {
+                "extension": "ANIME",
+                "provider": "Gogoanime",
+                "id": "haikyuu-dub-episode-23"
+            }
+        }
+    }
+}

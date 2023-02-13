@@ -1,0 +1,18 @@
+{
+    "id": 17,
+    "shortcode": "AS-JKLL-1-17",
+    "names": {
+        "default": "english",
+        "english": "The Iron Wall",
+        "japanese": "鉄壁"
+    },
+    "languages": {
+        "english": {
+            "downloadQuery": {
+                "extension": "ANIME",
+                "provider": "Gogoanime",
+                "id": "haikyuu-dub-episode-17"
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "id": 5,
+    "shortcode": "AS-JKLL-1-5",
+    "names": {
+        "default": "english",
+        "english": "A Coward's Anxiety",
+        "japanese": "小心者の緊張"
+    },
+    "languages": {
+        "english": {
+            "downloadQuery": {
+                "extension": "ANIME",
+                "provider": "Gogoanime",
+                "id": "haikyuu-dub-episode-5"
+            }
+        }
+    }
+}
