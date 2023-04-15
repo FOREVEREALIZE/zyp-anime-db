@@ -24,7 +24,23 @@
                 "type": "string"
             },
             "uniqueItems": true
+        },
+        "extras": {
+            "description": "A list of the IDs of all the Seasons of this Anime",
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "uniqueItems": true
+        },
+        "tags": {
+            "description": "A list of the IDs of all the Seasons of this Anime",
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "uniqueItems": true
         }
     },
-    "required": ["id", "name", "description", "seasons"]
+    "required": ["id", "name", "description", "seasons", "extras", "tags"]
 }
