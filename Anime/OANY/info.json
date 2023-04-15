@@ -1,0 +1,11 @@
+{
+    "$schema": "https://raw.githubusercontent.com/FOREVEREALIZE/zyp-anime-db/main/schemas/anime.schema.json",
+    "id": "sasaki-and-miyano",
+    "name": "Sasaki and Miyano",
+    "description": "",
+    "seasons": [
+        "sasaki-and-miyano-1"
+    ],
+    "extras": [],
+    "tags": []
+}
