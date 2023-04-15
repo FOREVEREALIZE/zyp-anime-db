@@ -1,0 +1,30 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://raw.gihtubusercontent.com/foreverealize/zyp-anime-db/main/schemas/anime.schema.json",
+    "title": "Anime",
+    "description": "An Anime within the Zyp Database",
+    "type": "object",
+    "properties": {
+        "id": {
+            "description": "ID of the Anime. Usually the lowercase name without special characters and all spaces replaced with dashes. Must be unique.",
+            "type": "string"
+        },
+        "name": {
+            "description": "The translated (non-romanized) English name of the Anime.",
+            "type": "string"
+        },
+        "description": {
+            "description": "The short description of the Anime. Usually breifly explains the plot and has a hook to get viewers interested",
+            "type": "string"
+        },
+        "seasons": {
+            "description": "A list of the IDs of all the Seasons of this Anime",
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "uniqueItems": true
+        }
+    },
+    "required": ["id", "name", "description", "seasons"]
+}
