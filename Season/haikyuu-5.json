@@ -1,0 +1,22 @@
+{
+    "$schema": "https://raw.githubusercontent.com/foreverealize/zyp-anime-db/main/schemas/season.schema.json",
+    "id": "haikyuu-5",
+    "number": 5,
+    "name": "Haikyuu!! To the Top Part 2",
+    "releaseStart": "2020-10-03",
+    "releaseEnd": "2020-12-19",
+    "episodes": [
+        "haikyuu-5-1",
+        "haikyuu-5-2",
+        "haikyuu-5-3",
+        "haikyuu-5-4",
+        "haikyuu-5-5",
+        "haikyuu-5-6",
+        "haikyuu-5-7",
+        "haikyuu-5-8",
+        "haikyuu-5-9",
+        "haikyuu-5-10",
+        "haikyuu-5-11",
+        "haikyuu-5-12"
+    ]
+}

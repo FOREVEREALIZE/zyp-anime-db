@@ -1,0 +1,23 @@
+{
+    "$schema": "https://raw.githubusercontent.com/foreverealize/zyp-anime-db/main/schemas/season.schema.json",
+    "id": "noragami-2",
+    "number": 2,
+    "name": "Noragami Aragoto",
+    "releaseStart": "2015-10-03",
+    "releaseEnd": "2015-12-26",
+    "episodes": [
+        "noragami-2-1",
+        "noragami-2-2",
+        "noragami-2-3",
+        "noragami-2-4",
+        "noragami-2-5",
+        "noragami-2-6",
+        "noragami-2-7",
+        "noragami-2-8",
+        "noragami-2-9",
+        "noragami-2-10",
+        "noragami-2-11",
+        "noragami-2-12",
+        "noragami-2-13"
+    ]
+}

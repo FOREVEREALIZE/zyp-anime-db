@@ -1,0 +1,23 @@
+{
+    "$schema": "https://raw.githubusercontent.com/foreverealize/zyp-anime-db/main/schemas/season.schema.json",
+    "id": "bungou-stray-dogs-4",
+    "number": 4,
+    "name": "Bungou Stray Dogs: Season 4",
+    "releaseStart": "2023-01-04",
+    "releaseEnd": "2023-03-29",
+    "episodes": [
+        "bungou-stray-dogs-4-1",
+        "bungou-stray-dogs-4-2",
+        "bungou-stray-dogs-4-3",
+        "bungou-stray-dogs-4-4",
+        "bungou-stray-dogs-4-5",
+        "bungou-stray-dogs-4-6",
+        "bungou-stray-dogs-4-7",
+        "bungou-stray-dogs-4-8",
+        "bungou-stray-dogs-4-9",
+        "bungou-stray-dogs-4-10",
+        "bungou-stray-dogs-4-11",
+        "bungou-stray-dogs-4-12",
+        "bungou-stray-dogs-4-13"
+    ]
+}

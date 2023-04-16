@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/foreverealize/zyp-anime-db/main/schemas/season.schema.json",
+    "id": "haikyuu-3",
+    "number": 3,
+    "name": "Haikyuu!! Karasuno High vs Shiratorizawa Academy",
+    "releaseStart": "2016-10-08",
+    "releaseEnd": "2016-12-10",
+    "episodes": [
+        "haikyuu-3-1",
+        "haikyuu-3-2",
+        "haikyuu-3-3",
+        "haikyuu-3-4",
+        "haikyuu-3-5",
+        "haikyuu-3-6",
+        "haikyuu-3-7",
+        "haikyuu-3-8",
+        "haikyuu-3-9",
+        "haikyuu-3-10"
+    ]
+}

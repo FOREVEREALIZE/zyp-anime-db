@@ -18,11 +18,11 @@
             "type": "string"
         },
         "releaseStart": {
-            "description": "The Date (and maybe Time) in the ZDB Date Format in which the release of this Season started. \"UNKNOWN\" if the Season is not releasing yet.",
+            "description": "The Date (and maybe Time) in the ZDB Date / DateTime Format in which the release of this Season started. \"UNKNOWN\" if the Season is not releasing yet.",
             "type": "string"
         },
         "releaseEnd": {
-            "description": "The Date (and maybe Time) in the ZDB Date Format in which the release of this Season ended. \"UNKNOWN\" if the Season is still releasing.",
+            "description": "The Date (and maybe Time) in the ZDB Date / DateTime Format in which the release of this Season ended. \"UNKNOWN\" if the Season is still releasing.",
             "type": "string"
         },
         "episodes": {

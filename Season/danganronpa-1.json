@@ -1,0 +1,23 @@
+{
+    "$schema": "https://raw.githubusercontent.com/foreverealize/zyp-anime-db/main/schemas/season.schema.json",
+    "id": "danganronpa-1",
+    "number": 1,
+    "name": "Danganronpa: Season 1",
+    "releaseStart": "2013-06-05",
+    "releaseEnd": "2013-09-27",
+    "episodes": [
+        "danganronpa-1-1",
+        "danganronpa-1-2",
+        "danganronpa-1-3",
+        "danganronpa-1-4",
+        "danganronpa-1-5",
+        "danganronpa-1-6",
+        "danganronpa-1-7",
+        "danganronpa-1-8",
+        "danganronpa-1-9",
+        "danganronpa-1-10",
+        "danganronpa-1-11",
+        "danganronpa-1-12",
+        "danganronpa-1-13"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "$schema": "https://raw.githubusercontent.com/foreverealize/zyp-anime-db/main/schemas/season.schema.json",
+    "id": "bungou-stray-dogs-3",
+    "number": 3,
+    "name": "Bungou Stray Dogs: Season 3",
+    "releaseStart": "2019-04-12",
+    "releaseEnd": "2019-06-28",
+    "episodes": [
+        "bungou-stray-dogs-3-1",
+        "bungou-stray-dogs-3-2",
+        "bungou-stray-dogs-3-3",
+        "bungou-stray-dogs-3-4",
+        "bungou-stray-dogs-3-5",
+        "bungou-stray-dogs-3-6",
+        "bungou-stray-dogs-3-7",
+        "bungou-stray-dogs-3-8",
+        "bungou-stray-dogs-3-9",
+        "bungou-stray-dogs-3-10",
+        "bungou-stray-dogs-3-11",
+        "bungou-stray-dogs-3-12"
+    ]
+}

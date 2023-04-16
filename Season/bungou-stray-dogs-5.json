@@ -1,0 +1,9 @@
+{
+    "$schema": "https://raw.githubusercontent.com/foreverealize/zyp-anime-db/main/schemas/season.schema.json",
+    "id": "bungou-stray-dogs-5",
+    "number": 5,
+    "name": "Bungou Stray Dogs: Season 5",
+    "releaseStart": "UNKNOWN",
+    "releaseEnd": "UNKNOWN",
+    "episodes": []
+}

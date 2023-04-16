@@ -1,0 +1,22 @@
+{
+    "$schema": "https://raw.githubusercontent.com/foreverealize/zyp-anime-db/main/schemas/season.schema.json",
+    "id": "bungou-stray-dogs-2",
+    "number": 2,
+    "name": "Bungou Stray Dogs: Season 2",
+    "releaseStart": "2016-10-06",
+    "releaseEnd": "2016-12-16",
+    "episodes": [
+        "bungou-stray-dogs-2-1",
+        "bungou-stray-dogs-2-2",
+        "bungou-stray-dogs-2-3",
+        "bungou-stray-dogs-2-4",
+        "bungou-stray-dogs-2-5",
+        "bungou-stray-dogs-2-6",
+        "bungou-stray-dogs-2-7",
+        "bungou-stray-dogs-2-8",
+        "bungou-stray-dogs-2-9",
+        "bungou-stray-dogs-2-10",
+        "bungou-stray-dogs-2-11",
+        "bungou-stray-dogs-2-12"
+    ]
+}

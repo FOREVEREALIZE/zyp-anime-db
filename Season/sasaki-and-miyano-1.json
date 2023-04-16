@@ -1,0 +1,22 @@
+{
+    "$schema": "https://raw.githubusercontent.com/foreverealize/zyp-anime-db/main/schemas/season.schema.json",
+    "id": "sasaki-and-miyano-1",
+    "number": 1,
+    "name": "Sasaki and Miyano: Season 1",
+    "releaseStart": "2022-01-10",
+    "releaseEnd": "2022-03-28",
+    "episodes": [
+        "sasaki-and-miyano-1-1",
+        "sasaki-and-miyano-1-2",
+        "sasaki-and-miyano-1-3",
+        "sasaki-and-miyano-1-4",
+        "sasaki-and-miyano-1-5",
+        "sasaki-and-miyano-1-6",
+        "sasaki-and-miyano-1-7",
+        "sasaki-and-miyano-1-8",
+        "sasaki-and-miyano-1-9",
+        "sasaki-and-miyano-1-10",
+        "sasaki-and-miyano-1-11",
+        "sasaki-and-miyano-1-12"
+    ]
+}
