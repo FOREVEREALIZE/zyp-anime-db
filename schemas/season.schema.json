@@ -1,0 +1,38 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://raw.gihtubusercontent.com/foreverealize/zyp-anime-db/main/schemas/season.schema.json",
+    "title": "Season",
+    "description": "A Season within the Zyp Database",
+    "type": "object",
+    "properties": {
+        "id": {
+            "description": "ID of the Season. Usually the lowercase anime name without special characters and all spaces replaced with dashes with the season number at the end.\nMust be unique.",
+            "type": "string"
+        },
+        "number": {
+            "description": "The number or position of the Season within it's Anime.",
+            "type": "number"
+        },
+        "name": {
+            "description": "The translated (non-romanized) English name of the Season. If none exists, the format \"{Anime Name}: Season {Season Number}\" may be used.",
+            "type": "string"
+        },
+        "releaseStart": {
+            "description": "The Date (and maybe Time) in the ZDB Date Format in which the release of this Season started. \"UNKNOWN\" if the Season is not releasing yet.",
+            "type": "string"
+        },
+        "releaseEnd": {
+            "description": "The Date (and maybe Time) in the ZDB Date Format in which the release of this Season ended. \"UNKNOWN\" if the Season is still releasing.",
+            "type": "string"
+        },
+        "episodes": {
+            "description": "A list of the IDs of all the Episodes of this Season.",
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "uniqueItems": true
+        }
+    },
+    "required": ["id", "number", "name", "releaseStart", "releaseEnd", "episodes"]
+}
