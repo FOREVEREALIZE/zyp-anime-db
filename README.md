@@ -13,8 +13,8 @@ If that's not the case, all of the schemas for ZDB are in the `schemas/` folder.
 The ZDB uses a few special formats to standardize certain fields of the Database. They are the following and are specified below:
 * ZDB Timezone Format (or ZDBTZF)
 * ZDB Date Format (or ZDBDF)
-* ZDB Time Format (or ZDBTF) (To Be Specified)
-* ZDB DateTime Format (or ZDBDTF) (To Be Specified)
+* ZDB Time Format (or ZDBTF)
+* ZDB DateTime Format (or ZDBDTF)
 
 ### ZDB Timezone Format
 The ZDBTZF is a Timezone Format that is composed of two parts, which are not separated with any character. These are the following:
@@ -152,7 +152,7 @@ The ZDBDF is a Date Format that is composed of multiple dash-separated parts. Th
   * This Date specifies any moment in time within the Year, Month and Day specified.
 * All Dates must be in the `UTC+00` (or `Exact UTC`) Timezone unless the Date ends with a ZDBTZF Formatted Timezone, not separated with a dash from the main Date. It is recommended to avoid setting Timezones as much as possible, because the Date will probably be replaced with it's `UTC+00` counterpart by someone else.
 
-## ZDB Time Format
+### ZDB Time Format
 The ZDBTF is a Time Format that is composed of multiple colon-separated parts. These are the following:
 * If the Time only has one part, it is treated as the Hour:
   * If the Hour only has one character, that character will make the Hour precise to half of the day, those being the ones described below. This will also cause the Time to finish at that this part with the possibility to have a Timezone at the end.
@@ -247,3 +247,10 @@ The ZDBTF is a Time Format that is composed of multiple colon-separated parts. T
   * This Time specifies any moment in time within the Hour, Minute and Second specified.
 * Currently, ZDBTF only supports precision up to the Second.
 * All Times must be in the `UTC+00` (or `Exact UTC`) Timezone unless the Time ends with a ZDBTZF Formatted Timezone, not separated with a colon from the main Time. It is recommended to avoid setting Timezones as much as possible, because the Time will probably be replaced with it's `UTC+00` counterpart by someone else.
+
+### ZDB DateTime Format
+The ZDBDTF is a DateTime Format that is composed of three to four parts. These are the following:
+* The first part must be a ZDBDF Formatted Date which must **not** include a Timezone at the end. It also must be of maximum precision (AKA it must include all three parts).
+* The second part must be an `@`.
+* The third part must be a ZDBTF Formatted Time which must **not** include a Timezone at the end. It does not need to be of maximum precision (AKA it can omit some parts, but not all)
+* Both the Time and Date must be in the `UTC+00` (or `Exact UTC`) Timezone unless the Time ends with a ZDBTZF Formatted Timezone, not separated with a colon from the main DateTime. It is recommended to avoid setting Timezones as much as possible, because the DateTime will probably be replaced with it's `UTC+00` counterpart by someone else. The fact that there is only one Timezone also means both the Date and the Time must be in the same Timezone.
