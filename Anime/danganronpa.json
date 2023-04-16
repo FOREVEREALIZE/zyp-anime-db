@@ -1,0 +1,11 @@
+{
+    "$schema": "https://raw.githubusercontent.com/FOREVEREALIZE/zyp-anime-db/main/schemas/anime.schema.json",
+    "id": "danganronpa",
+    "name": "Danganronpa: The Animation",
+    "description": "",
+    "seasons": [
+        "danganronpa-1"
+    ],
+    "extras": [],
+    "tags": []
+}

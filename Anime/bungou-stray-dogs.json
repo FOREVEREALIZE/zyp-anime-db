@@ -1,0 +1,16 @@
+{
+    "$schema": "https://raw.githubusercontent.com/FOREVEREALIZE/zyp-anime-db/main/schemas/anime.schema.json",
+    "id": "bungou-stray-dogs",
+    "name": "Bungou Stray Dogs",
+    "description": "",
+    "seasons": [
+        "bungou-stray-dogs-1",
+        "bungou-stray-dogs-2",
+        "bungou-stray-dogs-3",
+        "bungou-stray-dogs-4",
+        "bungou-stray-dogs-5"
+
+    ],
+    "extras": [],
+    "tags": []
+}

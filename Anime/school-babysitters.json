@@ -1,0 +1,11 @@
+{
+    "$schema": "https://raw.githubusercontent.com/FOREVEREALIZE/zyp-anime-db/main/schemas/anime.schema.json",
+    "id": "school-babysitters",
+    "name": "School Babysitters",
+    "description": "",
+    "seasons": [
+        "school-babysitters-1"
+    ],
+    "extras": [],
+    "tags": []
+}

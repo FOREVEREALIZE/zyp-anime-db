@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/FOREVEREALIZE/zyp-anime-db/main/schemas/anime.schema.json",
+    "id": "haikyuu",
+    "name": "Haikyuu!!",
+    "description": "",
+    "seasons": [
+        "haikyuu-1",
+        "haikyuu-2",
+        "haikyuu-3",
+        "haikyuu-4",
+        "haikyuu-5"
+    ],
+    "extras": [],
+    "tags": []
+}
