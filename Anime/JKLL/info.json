@@ -4,7 +4,11 @@
     "name": "Haikyuu!!",
     "description": "",
     "seasons": [
-        "haikyuu-1"
+        "haikyuu-1",
+        "haikyuu-2",
+        "haikyuu-3",
+        "haikyuu-4",
+        "haikyuu-5"
     ],
     "extras": [],
     "tags": []
